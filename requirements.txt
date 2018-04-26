@@ -1,0 +1,19 @@
+-> temel özellikler (argparse)
+	* girdi
+	- string verme
+	- pdf verme
+	- text belgesi verme
+	* çıktı
+	- ClewWord(kelime,anlamı)
+	- Excel(sonra)
+	- HTML(sonra)
+-> database belirleme
+	- sqlite(muhtemel)
+-> algoritmayı oluştur
+	- metni parçala
+	- bütün harfleri küçük yap
+	- tekrarlayan kelimeleri sil
+	- anlamı olmayan kelimeleri çıkart
+	- en çok tekrar eden 10 kelimeyi bulup kullanıcıya sor
+	* bulunamayan kelimeleri kullanıcıya sor
+		* google ve benzeri bi yerden araştır
